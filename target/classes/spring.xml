@@ -7,9 +7,11 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
     
-    <bean id="vehicle" class="com.nissan.practice.SpringCore.Bike">
+   <!--  <bean id="vehicle" class="com.nissan.practice.SpringCore.Bike">
     </bean>
+    --> 
     
+    <context:component-scan base-package="com.nissan.practice.SpringCore"></context:component-scan>
     
     
 </beans>
