@@ -5,6 +5,12 @@ public class Tyre {
 	
 	String brandName;
 
+	
+	public Tyre(String brandName) {
+		super();
+		this.brandName = brandName;
+	}
+
 	public String getBrandName() {
 		return brandName;
 	}

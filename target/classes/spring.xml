@@ -12,9 +12,12 @@
     --> 
     
     <context:component-scan base-package="com.nissan.practice.SpringCore"></context:component-scan>
-    
+ 
+ 
+ <!--Learning to use bean property  -->   
     <bean id="tyre" class="com.nissan.practice.SpringCore.Tyre">
-    	<property name="brandName" value="CEAT"></property>
+    <!-- Using setter injection  -->	<!--  <property name="brandName" value="CEAT"></property> -->
+    <!-- Using Constructors --> <constructor-arg value="MRF"></constructor-arg>
     </bean>
     
 </beans>
