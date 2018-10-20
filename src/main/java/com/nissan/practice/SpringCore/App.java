@@ -18,8 +18,13 @@ public class App
 //        obj.drive();
         
 // bean property
-        Tyre t = (Tyre)context.getBean("tyre");
-        System.out.println(t);
         
-    }
+/*        Tyre t = (Tyre)context.getBean("tyre");
+        System.out.println(t);*/
+
+
+// AutoWired Annotation
+        Car c = (Car)context.getBean("car");
+        c.drive();
+    }	
 }
